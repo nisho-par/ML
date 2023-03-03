@@ -6,7 +6,7 @@ from imblearn.over_sampling import RandomOverSampler
 
 
 # create dataframe from csv
-df = pd.read_csv('ml1/dataset.csv')
+df = pd.read_csv('ml_classification/dataset.csv')
 
 # returns first 5 instances
 r = df.head()
